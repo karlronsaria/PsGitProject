@@ -1,0 +1,35 @@
+{
+    "FirstCommitMessage": "first commit",
+    "Remotes": [
+    ],
+    "ConditionalRemotes": [
+        {
+            "Type": "All",
+            "Name": "all"
+        },
+        {
+            "Type": "PsProfile",
+            "Name": "psprofile",
+            "Locations": [
+                {
+                    "Type": "Local",
+                    "Path": "$($env:OneDrive)/Documents/WindowsPowerShell/Scripts"
+                }
+            ]
+        },
+        {
+            "Type": "PsModule",
+            "Name": "psmodule",
+            "Locations": [
+                {
+                    "Type": "Local",
+                    "Path": "$($env:OneDrive)/Documents/WindowsPowerShell/Modules"
+                }
+            ]
+        }
+    ],
+    "Resources": [
+        "res/Main.ps1",
+        "res/script"
+    ]
+}
